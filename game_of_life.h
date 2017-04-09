@@ -20,14 +20,14 @@ int const _probability = 25; //expressed as percentage
 typedef char Cell;
 
 //ascii value for living and dead cells
-const Cell live = 32;
-const Cell dead = 'x';
+const Cell live = 'x';
+const Cell dead = 32;
 
 //prototypes for the functions
 Cell **createMesh(void);
-void initMesh(Cell);
+void initMesh(Cell**);
 int valid(int, int );
-int count_neighbours(Cell, int, int, Cell);
+int count_neighbours(Cell**, int, int, Cell);
 void printMesh(Cell **);
 void rutine(Cell **, int);
 void start();
