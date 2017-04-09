@@ -1,0 +1,9 @@
+Rules for the game
+(as any game it has rules)
+
+1) To ensure that a cell will remain alive in the next time, it must have 2 or 3 living neighbours 
+otherwise it dies because overpopulation or loneliness
+
+2) if a dead cell has 3 living neighbours cells, then it comes to the life again as Lazarus or a zombie
+
+
